@@ -1,12 +1,8 @@
-version: 1
+version: 2
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
   title: Thermolab
-<<<<<<< HEAD
   authors: 
-=======
-  authors:
->>>>>>> 88a95890e37f00a1e194c6228dd53e834541a5fc
     - name: Cody van Esseveld
     - name: Lasse Bindels
 
@@ -17,7 +13,7 @@ extends:
   - plugins.yml
   - toc.yml
   - export.yml
-
+    
 site:
   template: book-theme
   options:
@@ -25,7 +21,7 @@ site:
     style: ./css/TUD_stylesheet.css
     logo: Figures/logo.png
     folders: false
-
+  
   actions:
     - title: report issue
       url: https://github.com/firebase21/Groupname.git # change this URL to your repository
